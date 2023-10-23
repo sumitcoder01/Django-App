@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container text-center mt-5">
+  <div class="text-center">Welcome <strong>{{request.user}}</strong></div>
+  <div class="text-center"><a href="/logout">Logout</a></div>
+</div>
+{% endblock body %}
